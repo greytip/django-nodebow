@@ -4,7 +4,7 @@ import json
 from optparse import make_option
 from django.conf import settings
 from django.core.management.base import BaseCommand as DjangoBaseCommand, CommandError
-from django.utils.importlib import import_module
+from importlib import import_module
 
 
 class BaseCommand(DjangoBaseCommand):
